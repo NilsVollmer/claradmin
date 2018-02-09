@@ -13,7 +13,7 @@ class SolutionCategory < ApplicationRecord
   # Methods
 
   # alias for rails_admin_nestable
-  singleton_class.send :alias_method, :arrange, :hash_tree
+  # singleton_class.send :alias_method, :arrange, :hash_tree
 
   include ReformedValidationHack
 end
